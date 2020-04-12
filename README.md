@@ -12,5 +12,5 @@
 
 -[x] Docker
 -[x] PHPUnit
--[ ] Easy Coding Standard
+-[X] Easy Coding Standard
 -[ ] PHPStan

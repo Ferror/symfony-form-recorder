@@ -21,6 +21,7 @@ RUN apt-get update \
         ca-certificates \
         curl \
         unzip \
+        make \
         php-apcu \
         php-apcu-bc \
         php7.4-fpm \
