@@ -1,6 +1,6 @@
 <?php
 
-use App\Controller\DefaultController;
+use Ferror\Controller\DefaultController;
 use Symfony\Component\Routing\Loader\Configurator\RoutingConfigurator;
 
 return static function (RoutingConfigurator $routes) {
