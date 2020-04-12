@@ -1,4 +1,6 @@
 {
+    "name": "ferror/symfony-form-recorder",
+    "description": "Symfony project tat will handle form submits from external websites",
     "type": "project",
     "license": "proprietary",
     "require": {
@@ -13,7 +15,6 @@
     },
     "require-dev": {
         "symfony/browser-kit": "5.0.*",
-        "symfony/css-selector": "5.0.*",
         "symfony/phpunit-bridge": "5.0.*"
     },
     "config": {
