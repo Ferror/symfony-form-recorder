@@ -16,5 +16,5 @@ return function(ContainerConfigurator $configurator) {
     // this creates a service per class whose id is the fully-qualified class name
     $services
         ->load('Ferror\\', '../src/*')
-        ->exclude('../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}');
+        ->exclude('../src/Symfony/Kernel.php');
 };
