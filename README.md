@@ -7,3 +7,10 @@
 * must be dockerized
 * unpacked dependencies
 * only php config
+
+## To do
+
+-[x] Docker
+-[x] PHPUnit
+-[ ] Easy Coding Standard
+-[ ] PHPStan
