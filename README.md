@@ -10,7 +10,7 @@
 
 ## To do
 
--[x] Docker
--[x] PHPUnit
--[X] Easy Coding Standard
--[X] PHPStan
+- [x] Docker
+- [x] PHPUnit
+- [X] Easy Coding Standard
+- [X] PHPStan
