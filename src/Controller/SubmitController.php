@@ -7,10 +7,10 @@ namespace Ferror\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-final class DefaultController extends AbstractController
+final class SubmitController extends AbstractController
 {
-    public function index(): Response
+    public function __invoke(): Response
     {
-        return new Response();
+        return new Response('form submitted');
     }
 }
