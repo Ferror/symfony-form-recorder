@@ -1,15 +1,14 @@
 <?php
 
-use Ferror\Controller\DefaultController;
 use Symfony\Component\Routing\Loader\Configurator\RoutingConfigurator;
 
 return static function (RoutingConfigurator $routes) {
-    $routes->add('index', '/')
-        // the controller value has the format [controller_class, method_name]
-        ->controller([DefaultController::class, 'index'])
+    // the controller value has the format [controller_class, method_name]
+    $routes
+        ->add('index', '/')
+        ->controller([Ferror\Controller\DefaultController::class, 'index']);
 
-        // if the action is implemented as the __invoke() method of the
-        // controller class, you can skip the ', method_name]' part:
-        // ->controller([BlogController::class])
-    ;
+    $routes
+        ->add('form', '/submit')
+        ->controller(\Ferror\Controller\SubmitController::class);
 };
