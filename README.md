@@ -14,3 +14,6 @@
 - [x] PHPUnit
 - [X] Easy Coding Standard
 - [X] PHPStan
+- [ ] Improved form submit from symfony-form-handler project
+- [ ] Mailer adapters (notification)
+- [ ] Saver (saving data)
