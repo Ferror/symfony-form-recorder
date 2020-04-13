@@ -1,5 +1,6 @@
 # Symfony form recorder
 [![Build Status](https://travis-ci.com/Ferror/symfony-form-recorder.svg?branch=master)](https://travis-ci.com/Ferror/symfony-form-recorder)
+[![codecov](https://codecov.io/gh/Ferror/symfony-form-recorder/branch/master/graph/badge.svg)](https://codecov.io/gh/Ferror/symfony-form-recorder)
 
 
 ## Project assumptions
