@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 final class SubmitController extends AbstractController
 {
-    public function __invoke()
+    public function __invoke(): Response
     {
         return new Response('form submitted');
     }
