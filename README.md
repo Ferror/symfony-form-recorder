@@ -17,3 +17,13 @@
 - [ ] Improved form submit from symfony-form-handler project
 - [ ] Mailer adapters (notification)
 - [ ] Saver (saving data)
+
+### CI
+#### Via Travis CI
+- [x] PHPUnit
+- [x] PHPStan
+- [x] Easy Coding Standard
+- [x] PHP Mess Detector
+
+### CD
+- [ ] Heroku deployment
