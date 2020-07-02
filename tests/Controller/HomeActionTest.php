@@ -6,7 +6,7 @@ namespace Ferror\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class DefaultControllerTest extends WebTestCase
+class HomeActionTest extends WebTestCase
 {
     public function testShowPost(): void
     {
