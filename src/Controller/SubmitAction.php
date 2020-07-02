@@ -13,13 +13,6 @@ use Symfony\Component\HttpFoundation\Response;
 
 final class SubmitAction extends AbstractController
 {
-    private LoggerInterface $logger;
-
-    public function __construct(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-    }
-
     /**
      * @throws HoneyPotFoundException
      */
@@ -33,10 +26,6 @@ final class SubmitAction extends AbstractController
             return new Response('form submitted');
         } catch (HoneyPotFoundException $exception) {
             return new JsonResponse(['error' => ''], 400);
-        } catch (\Exception $exception) {
-            $this->logger->error($exception->getMessage());
-
-            return new JsonResponse(['error' => ''], 500);
         }
     }
 }
